@@ -1,8 +1,8 @@
 function initCamera() {
   //Uncomment and fill in the correct selectors below.
-  //capture($('<Your code here>'),
-  //        $('<Your code here>'),
-  //        $('<Your code here>'));
+  capture($('<Your code here>'),
+          $('<Your code here>'),
+          $('<Your code here>'));
 }
 
 function capture(video, canvas, snapshotButton) {
@@ -19,7 +19,7 @@ function capture(video, canvas, snapshotButton) {
     snapshotButton.click(function(e) {
         console.log("Taking photo");
         //Calculate dimension of photo from the video element.
-        var width = video.width();
+        var width = video.width(); 
         var height = video.height();
         canvas.attr('width', width);
         canvas.attr('height', height);
